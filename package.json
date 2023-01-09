@@ -1,0 +1,26 @@
+{
+  "name": "orcl-atp-db-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makuneru/orcl-atp-db-automation.git"
+  },
+  "keywords": [
+    "atp-db",
+    "database-automation"
+  ],
+  "author": "Mac Cayanan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/oracledb": "^5.2.3",
+    "dotenv": "^16.0.1",
+    "oracledb": "^5.5.0",
+    "typescript": "^4.8.4"
+  }
+}
